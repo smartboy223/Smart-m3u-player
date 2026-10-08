@@ -2,3 +2,5 @@ node_modules/
 data/
 test-output/
 *.log
+/PLAN.md
+/VALIDATION.md

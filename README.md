@@ -85,7 +85,7 @@ npm ci
 npm test
 ```
 
-Tests cover parsing, readable labels, navigation, growing queues, concurrency, cancellation, media decoding, playback relay, conversion, persistence, deletion and saved collections. Generated fixtures and isolated libraries stay under **test-output/**. See [VALIDATION.md](VALIDATION.md) for verification evidence and practical limits.
+Tests cover parsing, readable labels, navigation, growing queues, concurrency, cancellation, media decoding, playback relay, conversion, persistence, deletion and saved collections. Generated fixtures and isolated libraries stay under **test-output/**. Playback tests use generated local media; they do not establish availability or compatibility of individual providers.
 
 ## 🙌 Built with established tools
 
