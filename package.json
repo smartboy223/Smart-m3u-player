@@ -1,0 +1,19 @@
+{
+  "name": "signaldeck",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SignalDeck — local M3U and HLS playlist studio with queued validation and playback",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/playlist.test.js test/navigation.test.js test/import.test.js test/queue.test.js test/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "hls.js": "^1.6.0",
+    "iptv-playlist-parser": "^0.15.2"
+  }
+}
